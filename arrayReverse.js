@@ -14,13 +14,10 @@ function reverseArrayInPlace(arr) {
   }
 }
 
-// Example usage:
 const originalArray = [1, 2, 3, 4, 5];
 const reversedArray = reverseArray(originalArray);
 console.log(reversedArray); // [5, 4, 3, 2, 1]
 console.log(originalArray); // [1, 2, 3, 4, 5] (original array is not modified)
-
-// Example usage:
 const arrayToReverse = [1, 2, 3, 4, 5];
 reverseArrayInPlace(arrayToReverse);
 console.log(arrayToReverse); // [5, 4, 3, 2, 1] (original array is reversed)
